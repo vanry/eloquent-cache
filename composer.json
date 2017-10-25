@@ -1,0 +1,23 @@
+{
+    "name": "vanry/laravel-cache",
+    "description": "Cache helpers for Eloquent Model",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "vanry",
+            "email": "ivanry@163.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "~5.2",
+        "illuminate/support": "~5.2",
+        "illuminate/cache": "~5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vanry\\Cache\\": "src/"
+        }
+    }
+}
